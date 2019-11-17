@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color:#04F488;
+}
+h1{
+	text-align: center;
+	font-family: 方正姚体,黑体,宋体;
+	font-size: 24px;
+	font-weight: bold;
+	color:#FF0000;
+	text-decoration: none;
+}
+h2{
+	font-family: 黑体;
+	font-size: 16px;
+	font-weight: normal;
+	color:black;
+}
+p{
+	line-height: 2em;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	background-color: #9f0;
+	margin-left:15%;
+	margin-right:15%;
+	text-align: center;
+	font-size: 18px;
+}
+.copyright{
+	text-align:center;
+	margin-bottom: 10px;
+}
+#triangle{
+	width:0;
+	height:0;
+	border:10px solid transparent;
+	border-top-color:#CCCCCC;
+	border-bottom:0;
+}
+#container{
+	width: 80%;
+	min-height:700px;
+	margin: 0 auto;
+	padding: 5px 20px;
+	background-color: #699B97;
+}
+.normal:hover{
+	background-color: #E4F068;
+}
+#ass{
+	width: 835px;
+	height: 70px;
+	margin-left: 0px;
+}
+.left,.right{
+	position: absolute;
+	width: 55px;
+	height: 70px;
+	background-image: url(../images/pic3.png);
+}
+.left{
+	left: 5px;
+	top: 275px;
+	background-position: 0px -80px;
+}
+.right{
+	right: 5px;
+	top: 275px;
+	background-position: 0px -153px;
+}
+.left:hover,.right:hover{
+	background-color: rgba(0,0,0,0.5)
+}
